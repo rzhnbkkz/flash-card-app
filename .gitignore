@@ -1,0 +1,13 @@
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-to-trash
+
+build/
+DerivedData/
+
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+.DS_Store
