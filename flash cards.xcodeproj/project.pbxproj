@@ -29,9 +29,33 @@
 		1408D3B32FE1AB7D000518C0 /* flash cardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flash cardsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1408D3D62FE30393000518C0 /* Exceptions for "flash cards" folder in "flash cards" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.gitignore,
+			);
+			target = 1408D3982FE1AB7B000518C0 /* flash cards */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		1408D3D72FE30393000518C0 /* Exceptions for "flash cards" folder in "Compile Sources" phase from "flash cards" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 1408D3952FE1AB7B000518C0 /* Sources */;
+			membershipExceptions = (
+				.gitignore,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1408D39B2FE1AB7B000518C0 /* flash cards */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1408D3D62FE30393000518C0 /* Exceptions for "flash cards" folder in "flash cards" target */,
+				1408D3D72FE30393000518C0 /* Exceptions for "flash cards" folder in "Compile Sources" phase from "flash cards" target */,
+			);
 			path = "flash cards";
 			sourceTree = "<group>";
 		};
